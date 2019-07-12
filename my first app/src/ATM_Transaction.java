@@ -41,7 +41,7 @@ public class ATM_Transaction
                     System.out.print("Enter money to be deposited:");
                     deposit = s.nextInt();
                     balance = balance + deposit;
-                    System.out.println("Your Money has been successfully depsited");
+                    System.out.println("Your Money has been successfully deposited"  +  (deposit));
                     System.out.println("");
                     break;
 
@@ -52,6 +52,8 @@ public class ATM_Transaction
 
                 case 4:
                     System.exit(0);
+                default:
+                    throw new IllegalStateException("Unexpected value: " + n);
             }
         }
     }
