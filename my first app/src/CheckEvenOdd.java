@@ -8,10 +8,10 @@ public class CheckEvenOdd {
         num = input.nextInt();
 
         if (num % 2 == 0){
-            System.out.println("Number entered is Even");
+            System.out.println("Number entered is Even" +  num  +  "is even");
         }
         else{
-            System.out.println("nuber entered is odd");
+            System.out.println("number entered is odd"  + num  +  "is odd");
         }
     }
 }
