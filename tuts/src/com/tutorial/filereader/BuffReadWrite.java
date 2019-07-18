@@ -25,6 +25,23 @@ public class BuffReadWrite {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            if(in!=null){
+                try {
+                    in.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (bfn!=null){
+                try {
+                    bfn.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+            }
         }
+
     }
 }
