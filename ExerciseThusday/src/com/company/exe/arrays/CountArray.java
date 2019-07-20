@@ -171,8 +171,126 @@ public class CountArray {
                 return false;
             }
         }
+    public int[] fizzArray(int n) {
+            int [] fizz =new int[n];
+            for (int i=0;i<n; i++){
+                fizz[i] = i;
+
+            }
+            return fizz;
 
     }
+
+
+    public int sum6n7(int[] nums) {
+        boolean foundSeven = false;
+        boolean foundSix=false;
+        int sum = 0;
+
+        for(i=0;i<nums.length;i++){
+            if(nums[i] == 6){
+                foundSix=true;
+            }
+            if(nums[i]==7 && foundSix){
+                foundSeven=true;
+                continue;
+            }
+            if(!foundSix || (foundSix && foundSeven)){
+                sum += nums[i];
+            }
+
+        }
+        return sum;
+    }
+
+
+    public boolean only14(int [] nums){
+
+            for (int i=0;i<nums.length;i++){
+                if (nums[i]!=1 && nums[i] !=4){
+                        i++;
+                        return false;
+                }
+
+
+
+            }
+            return true;
+    }
+
+    public boolean not14(int [] nums){
+                for (int i=0;i<nums.length;i++){
+                    if (nums[i]==1 || nums[i]==4){
+                        i++;
+                        return false;
+                    }
+                }
+                return true;
+    }
+    public String[] fizzArray2(int n){
+        String[] str =new String[n];
+        String myarr;
+        int i;
+        for (i=0;i<n; i++){
+            myarr = Integer.toString(i);
+            str[i] = myarr;
+
+        }
+        return str;
+
+    }
+    public boolean isEverywhere(int [] nums, int val){
+            for (int i=0;i<nums.length-1;i++) {
+                if (nums[i] != val && nums[i + 1] != val) {
+                    return false;
+                }
+
+            }
+            return true;
+    }
+
+    public boolean either24(int [] nums){
+            boolean has22=false;
+            boolean has44= false;
+
+            for (int i=0; i<nums.length;i++){
+                if (nums[i]==2 && nums[i+1]==2){
+                    return  true;
+                }
+                if (nums[i]==4 && nums[i+1]==4){
+                    return  true;
+                }
+                if ((nums[i]==4 && nums[i+1]==4) && (nums[i]==2 && nums[i]==2)){
+                    return  false;
+                }
+
+            }
+            return has22 || has44;
+    }
+
+    public int matchUp(int[] nums, int[] nums2){
+           int  count = 0;
+           int count3=0;
+            for (int i=0;i<nums.length;i++){
+                if ((nums[i]==nums2[i]) && (nums.length == nums2.length)){
+                    count++;
+                }
+            }
+            for (int i=0;i<nums2.length;i++){
+                if ((nums2[i]==nums[i]) && (nums.length == nums2.length)){
+                    count++;
+                }
+
+            }
+            count3+=count;
+            return count3;
+
+    }
+
+
+    }
+
+
 
 
 

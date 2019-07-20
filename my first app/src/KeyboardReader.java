@@ -1,9 +1,11 @@
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class KeyboardReader {
     public static void main(String[] args) throws IOException {
         InputStreamReader keyboard = null;
+        FileWriter out = null;
 
         try {
             keyboard = new InputStreamReader(System.in);
