@@ -4,8 +4,9 @@
     <list default="true" id="f16bd7dd-2911-4e86-aa2f-d6796ce5f252" name="Default Changelist" comment="Added more files and java classes">
       <change beforePath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/exe/arrays/CountArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/exe/arrays/CountArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LiquorStoreApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LiquorStoreApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LiquorStoreApp/src/main/java/com/sample/SelectLiquorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LiquorStoreApp/src/main/java/com/sample/SelectLiquorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LiquorStoreApp/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LiquorStoreApp/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KeyboardReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyboardReader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/KeyboardReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -347,10 +348,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="25" width="1360" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20227273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20928463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -674,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/src/KeyboardReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,5 +1,6 @@
 package com.sample;
 
+import com.sample.LiquorService;
 import com.sample.model.LiquorType;
 
 import javax.servlet.RequestDispatcher;
