@@ -1,5 +1,8 @@
 package com.company.exe.arrays;
 
+
+import java.util.Scanner;
+
 public class CountArray {
 
     int c, i;
@@ -235,7 +238,7 @@ public class CountArray {
 
     public boolean isEverywhere(int[] nums, int val) {
         for (int i = 1; i < nums.length; i++) {
-            if ((nums[i] == val) && (nums[i + 1] == val || nums[i +2]==val))  {
+            if ((nums[i] == val) && (nums[i + 1] == val || nums[i + 2] == val)) {
                 return true;
             }
 
@@ -251,14 +254,14 @@ public class CountArray {
         boolean has4 = false;
         boolean both = true;
 
-        for (int i = 0; i < nums.length-1; i++) {
+        for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] == 2 && nums[i + 1] == 2) {
-                has2= true;
+                has2 = true;
             }
             if (nums[i] == 4 && nums[i + 1] == 4) {
-                has4= true;
+                has4 = true;
             }
-            if ((has4==true) && (has2==true)) {
+            if ((has4 == true) && (has2 == true)) {
                 both = false;
             }
 //            else return false;
@@ -266,17 +269,16 @@ public class CountArray {
         }
         return (has2 || has4) && both;
     }
+
     public int matchUp(int[] nums, int[] nums2) {
         int count = 0;
         int count3 = 0;
         for (int i = 0; i < nums.length; i++) {
-            if ((nums[i] > nums2[i]) && (nums[i] - nums2[i] <=2)) {
+            if ((nums[i] > nums2[i]) && (nums[i] - nums2[i] <= 2)) {
+                count++;
+            } else if ((nums[i] < nums2[i]) && (nums2[i] - nums[i] <= 2)) {
                 count++;
             }
-            else if ((nums[i] < nums2[i]) && (nums2[i] - nums[i] <=2)) {
-                count++;
-            }
-
 
 
             count3 = count;
@@ -288,76 +290,106 @@ public class CountArray {
     public boolean has77(int[] nums) {
         boolean has7 = false;
         boolean sep7 = false;
-        for (int i = 0; i < nums.length-1; i++) {
-            if ((nums[i] == 7) && (nums[i+1] == 7)) {
+        for (int i = 0; i < nums.length - 1; i++) {
+            if ((nums[i] == 7) && (nums[i + 1] == 7)) {
                 has7 = true;
 
             }
-            if( i< nums.length-2 && (nums[i]==7 && nums[i + 2] == 7)){
+            if (i < nums.length - 2 && (nums[i] == 7 && nums[i + 2] == 7)) {
                 sep7 = true;
             }
-            if (has7==true || sep7==true) {
-            }
+
 
         }
-        return has7 || sep7 ;
+        return has7 || sep7;
 
     }
 
     public boolean has12(int[] nums) {
+        boolean found1 = false;
+        boolean found2 = false;
+
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i]==1) {
+            if (nums[i] == 1) {
+                found1 = true;
                 continue;
-
-               }
-            if (nums[i]==2){
-                return true;
             }
 
-        }
-        return false;
-
-
-    }
-
-        public boolean modThree(int[] nums){
-            for (int i=0;i<nums.length - 2;i++){
-                if ((nums[i] % 2 == nums[i+1]%2) && (nums[i]%2  == nums[i+2]%2)) {
-                    return true;
+                if (nums[i++] == 2) {
+                    found2 = true;
                 }
 
-            }
-            return false;
-        }
+                if (found1 && found2) {
 
-        public boolean haveThree(int[] nums){
-           int count3 =0;
-
-
-           for (int i=0; i< nums.length-2 && count3<=3; i++){
-               if (nums[i]==3){
-                   count3++;
-                   continue;
-               }
-               if (nums[i+2]==3 && count3 ==3){
-                   return true;
-               }
-           }
-           return  false;
-
-        }
-
-        public boolean twoTwo(int[] nums){
-            for (int i=0;i< nums.length-2;i++){
-                if (nums[i]==2 && nums[i+1]==2){
-                    return true;
-                }
-                if (nums[i+1]==2 && nums[i+2] !=2){
-                    return false;
                 }
             }
-        return false;
+
+            return found1 && found2;
+
+
         }
+
+//
+//    public boolean haveThree(int[] nums) {
+//        int count3 = 0;
+//
+//
+//        for (int i = 0; i < nums.length - 2 && count3 <= 3; i++) {
+//            if (nums[i] == 3) {
+//                count3++;
+//                continue;
+//            }
+//            if (nums[i + 2] == 3 && count3 == 3) {
+//                return true;
+//            }
+//        }
+//        return false;
+//
+//    }
+//
+//    public boolean twoTwo(int[] nums) {
+//        for (int i = 0; i < nums.length - 2; i++) {
+//            if (nums[i] == 2 && nums[i + 1] == 2) {
+//                return true;
+//            }
+//            if (nums[i + 1] == 2 && nums[i + 2] != 2) {
+//                return false;
+//            }
+//        }
+//        return false;
+//    }
+//
+//    public boolean modThree(int[] nums) {
+//        for (int i = 0; i < nums.length - 2; i++) {
+//            if ((nums[i] % 2 == nums[i + 1] % 2) && (nums[i] % 2 == nums[i + 2] % 2)) {
+//                return true;
+//            }
+//
+//        }
+//        return false;
+//    }
+//
+//    public boolean hasThree(int[] nums) {
+//        for (int i = 0; i < nums.length - 2; i++) {
+//            if ((nums[i] ==3 && nums[i + 1] !=3) && (nums[i]== 3  && nums[i + 2] ==3)) {
+//                return true;
+//            }
+//
+//        }
+//        return false;
+//    }
+//    public boolean two2(int[] nums){
+//
+//        for (int i=0;i<nums.length-1;i++){
+//            if (nums[i]==2 && nums[i+1]==2){
+//                return true;
+//            }
+//
+//        }
+//        return false;
+//    }
+
+
 
 }
 
