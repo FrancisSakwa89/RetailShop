@@ -3,7 +3,7 @@ package com.company.exe.arrays;
 
 import java.util.Scanner;
 
-public class CountArray {
+public class Heckerank {
 
     int c, i;
 
@@ -308,26 +308,25 @@ public class CountArray {
     public boolean has12(int[] nums) {
         boolean found1 = false;
         boolean found2 = false;
+        boolean found12 =false;
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 1) {
                 found1 = true;
-                continue;
+
             }
 
-                if (nums[i++] == 2) {
-                    found2 = true;
-                }
 
-                if (found1 && found2) {
+            else if (found1 && nums[i]==2) {
+                found12 = true;
 
-                }
             }
-
-            return found1 && found2;
-
-
         }
+
+        return found12;
+
+
+    }
 
 //
 //    public boolean haveThree(int[] nums) {
@@ -359,25 +358,33 @@ public class CountArray {
 //        return false;
 //    }
 //
-//    public boolean modThree(int[] nums) {
-//        for (int i = 0; i < nums.length - 2; i++) {
-//            if ((nums[i] % 2 == nums[i + 1] % 2) && (nums[i] % 2 == nums[i + 2] % 2)) {
-//                return true;
-//            }
+    public boolean modThree(int[] nums) {
+        for (int i = 0; i < nums.length - 2; i++) {
+            if ((nums[i] % 2 == nums[i + 1] % 2) && (nums[i] % 2 == nums[i + 2] % 2)) {
+                return true;
+            }
+
+        }
+        return false;
+    }
 //
-//        }
-//        return false;
-//    }
-//
-//    public boolean hasThree(int[] nums) {
-//        for (int i = 0; i < nums.length - 2; i++) {
-//            if ((nums[i] ==3 && nums[i + 1] !=3) && (nums[i]== 3  && nums[i + 2] ==3)) {
-//                return true;
-//            }
-//
-//        }
-//        return false;
-//    }
+    public boolean haveThree(int[] nums) {
+        int count =0;
+        for (int i = 0; i < nums.length - 2 && count ==3; i++) {
+            if ((nums[i] ==3 && nums[i + 1] !=3)) {
+                count+=1;
+                continue;
+            }
+            if (nums[1]==3 && count==3){
+                return true;
+            }
+
+
+        }
+        return false;
+    }
+
+
 //    public boolean two2(int[] nums){
 //
 //        for (int i=0;i<nums.length-1;i++){

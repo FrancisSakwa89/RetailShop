@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c864fc3-9079-418e-98f1-159e810459f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/AddProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MapInterfaceAndCollectionExe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MysqlCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/CollectionsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/Linkedlist/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/QueueDemo/QueueCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/QueueDemo/queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/exe/exeLinkedListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/ExceptionHandling/ArithmeticException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/ExceptionHandling/HandlingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/ExeOnThreads/ExeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/ExeOnThreads/MaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/ExeOnThreads/ReverseHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/ExeOnThreads/SharedCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/HashsetExamples/TreeSet/CompareByAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/HashsetExamples/TreeSet/CompareByRegno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/HashsetExamples/TreeSet/MapInterfaceAndCollectionExe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/HashsetExamples/TreeSet/MapInterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/HashsetExamples/TreeSet/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/HashsetExamples/TreeSet/TreesetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/LambdaExpressions/ButtonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/LambdaExpressions/LambdaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/OOpShapes/MainOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/SQLPRACTICE/FirstSqlExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Threads/DaemonThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Threads/ExtendingClassAndInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Threads/ImplementingRunnableThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Threads/MyDaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Threads/MyThreadFindingTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Threads/ThreadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/exe/arrays/MainArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/Linkedlist/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/Linkedlist/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/Linkedlist/StudentNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/Linkedlist/StudentNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/TestCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/Collections/TestCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/exe/arrays/CountArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/exe/arrays/Heckerank.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="feedback" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="feedback" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="feedback" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="feedback: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/MysqlCon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/MapInterfaceAndCollectionExe.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MysqlCon.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="792" />
+    <option name="y" value="48" />
+    <option name="width" value="552" />
+    <option name="height" value="660" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Collections exe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Collections exe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Collections exe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Collections exe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Collections exe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Collections exe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Collections exe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MysqlCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MysqlCon" />
+      <module name="Collections exe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MysqlCon" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c864fc3-9079-418e-98f1-159e810459f9" name="Default Changelist" comment="" />
+      <created>1564495829580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564495829580</updated>
+      <workItem from="1564495880686" duration="2931000" />
+      <workItem from="1564545427399" duration="599000" />
+      <workItem from="1565007480209" duration="642000" />
+      <workItem from="1565014657950" duration="592000" />
+      <workItem from="1565063708235" duration="5194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9958000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.40984848" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.42019543" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38599348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.12575758" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17424242" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="0" visible="true" weight="0.42019543" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.12575758" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://6dc8abc0-20b4-4799-8fb9-b300ba03b278/schema/sqlearn/table/student_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="9cc9caba-ab93-4014-9b9b-f2b956f636b8">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7151">
+          <caret line="998" column="22" selection-start-line="998" selection-start-column="22" selection-end-line="998" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6dc8abc0-20b4-4799-8fb9-b300ba03b278/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MapInterfaceAndCollectionExe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c8f935e2-7d28-49da-af17-1ad78753101c/schema/feedback/table/comments">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="9cc9caba-ab93-4014-9b9b-f2b956f636b8">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8f935e2-7d28-49da-af17-1ad78753101c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MysqlCon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Collections exe</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

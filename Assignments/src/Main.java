@@ -45,7 +45,7 @@ public class Main {
         System.out.println("The title is: " + new_novel.getTitle());
 
 
-        System.out.println("########## MY CALCULATOR ARITHMETIC########");
+        System.out.println("########## MY CALCULATOR ARITHMETIC ########");
 
         MyCalculator my_calculator = new MyCalculator();
         System.out.print("I implemented: ");

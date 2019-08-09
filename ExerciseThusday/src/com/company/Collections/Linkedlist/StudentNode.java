@@ -1,16 +1,20 @@
 package com.company.Collections.Linkedlist;
 
 
-public class StudentNode {
-    StudentNode previous;
+import com.company.Collections.exe.Student;
+
+import java.util.LinkedList;
+
+public class StudentNode extends LinkedList {
+    String previous;
     StudentNode next;
     Student s;
 
-    public StudentNode getPrevious() {
+    public String getPrevious() {
         return previous;
     }
 
-    public void setPrevious(StudentNode previous) {
+    public void setPrevious(String previous) {
         this.previous = previous;
     }
 
@@ -38,5 +42,11 @@ public class StudentNode {
                 ", next=" + next +
                 ", s='" + s + '\'' +
                 '}';
+    }
+
+    public void setS(com.company.Collections.Linkedlist.Student sakwa) {
+    }
+
+    public void setPrevious(StudentNode s1) {
     }
 }
