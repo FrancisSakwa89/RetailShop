@@ -3,7 +3,10 @@ package com.tutorial.ImageProcessing;
 public class ImageMain {
     public static void main(String[] args) {
 
-        GrayScale grayScale = new GrayScale();
-        grayScale.readImage();
+//        GrayScale grayScale = new GrayScale();
+//        grayScale.readImage();
+//
+        StoreImageToDb storeImageToDb = new StoreImageToDb();
+        storeImageToDb.storeImage();
     }
 }

@@ -1,5 +1,5 @@
 package com.exe;
 
-public class Order extends User {
+public class Order {
     String myorder;
 }
