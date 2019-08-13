@@ -1,9 +1,10 @@
 package com.exe;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sale {
+public class Sale implements Serializable {
     Customer customer;
     List<Item> orderList;
     double total;
@@ -36,5 +37,14 @@ public class Sale {
 
     public void setTotal(double total) {
         this.total = total;
+    }
+
+    @Override
+    public String toString() {
+//        System.out.println("NAME"+"     "+"ORDER LIST"+"     "+"TOTAL");
+        System.out.println("______________________________________________________________________________");
+        System.out.println("NAME: "+customer+"   "+"ORDER: "+ orderList+"      "+"TOTAL: "+total);
+        System.out.println("______________________________________________________________________________");
+        return String.valueOf(orderList);
     }
 }
