@@ -8,11 +8,13 @@ public class Sale implements Serializable {
     Customer customer;
     List<Item> orderList;
     double total;
+    double totalProfit;
 
-    public Sale(Customer customer, List<Item> orderList, double total) {
+    public Sale(Customer customer, List<Item> orderList, double total,double totalProfit) {
         this.customer = customer;
         this.orderList = orderList;
         this.total = total;
+        this.totalProfit = totalProfit;
     }
 
     public Customer getCustomer() {
@@ -39,11 +41,23 @@ public class Sale implements Serializable {
         this.total = total;
     }
 
+    public double getTotalProfit() {
+        return totalProfit;
+    }
+
+    public void setTotalProfit(double totalProfit) {
+        this.total = totalProfit;
+    }
+
+
+
+
     @Override
     public String toString() {
 //        System.out.println("NAME"+"     "+"ORDER LIST"+"     "+"TOTAL");
         System.out.println("______________________________________________________________________________");
-        System.out.println("NAME: "+customer+"   "+"ORDER: "+ orderList+"      "+"TOTAL: "+total);
+        System.out.println("NAME\t\t\tORDERLIST\t\t\tTOTAL");
+        System.out.println(customer.getName()+"\t\t\t"+orderList+"\t\t\t"+total + "\t\t\t\t"+totalProfit);
         System.out.println("______________________________________________________________________________");
         return String.valueOf(orderList);
     }

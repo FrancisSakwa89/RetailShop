@@ -1,8 +1,6 @@
 package com.exe;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Customer implements Serializable {
 String name;
@@ -31,7 +29,7 @@ String id;
 
     @Override
     public String toString() {
-        return name + id;
+        return name +" "+ id;
     }
 }
 

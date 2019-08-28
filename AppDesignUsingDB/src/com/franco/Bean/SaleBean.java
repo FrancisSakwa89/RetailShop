@@ -8,7 +8,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import static com.franco.DBConnection.MysqlConnect.prp;
 
 public class SaleBean implements BeanI <Sale>{
     Scanner scan = new Scanner(System.in);
@@ -17,52 +16,60 @@ public class SaleBean implements BeanI <Sale>{
 
         String sql = "INSERT INTO sale(date,productId,quantity,sellingPrice,runningBalance,customerName,totalAmount) VALUES(?,?,?,?,?,?,?)";
         Connection conn = MysqlConnect.getDbCon().conn;
-        Recievings recievings = new RecieveBean().read(sale.getProductId());
-//        recievings = new RecieveBean().read(sale.getProductId());
-        try {
-            try {
-                if (recievings.getQuantity() > 0) {
-                    recievings = new RecieveBean().read(sale.getProductId());
-                    if (recievings.getQuantity() >= sale.getQuantity()) {
-                        conn = MysqlConnect.getDbCon().conn;
-                        PreparedStatement prp = conn.prepareStatement(sql);
-                        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-                        String dateString = df.format(sale.getDatetime());
-                        prp.setDate(1, Date.valueOf(dateString));
-                        prp.setInt(2, sale.getProductId());
-                        prp.setInt(3, sale.getQuantity());
-                        prp.setInt(4, sale.getSellingPrice());
-                        prp.setInt(5, sale.getRunningBalance());
-                        prp.setString(6, sale.getCustomerName());
-                        recievings.setRunningBalance(recievings.getQuantity() - sale.getQuantity());
+//        Recievings recievings = new RecieveBean().read(sale.getProductId());
+        PreparedStatement prp = conn.prepareStatement(sql);
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+        String dateString = df.format(sale.getDatetime());
+        prp.setDate(1, Date.valueOf(dateString));
+        prp.setInt(2, sale.getProductId());
+        prp.setInt(3, sale.getQuantity());
+        prp.setInt(4, sale.getSellingPrice());
+        prp.setInt(5, sale.getRunningBalance());
+        prp.setString(6, sale.getCustomerName());
+//        try {
+//            try {
+//                if (recievings.getQuantity() > 0) {
+//                    recievings = new RecieveBean().read(sale.getProductId());
+//                    if (recievings.getQuantity() >= sale.getQuantity()) {
+//                        conn = MysqlConnect.getDbCon().conn;
+//                        PreparedStatement prp = conn.prepareStatement(sql);
+//                        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+//                        String dateString = df.format(sale.getDatetime());
+//                        prp.setDate(1, Date.valueOf(dateString));
+//                        prp.setInt(2, sale.getProductId());
+//                        prp.setInt(3, sale.getQuantity());
+//                        prp.setInt(4, sale.getSellingPrice());
+//                        prp.setInt(5, sale.getRunningBalance());
+//                        prp.setString(6, sale.getCustomerName());
+//                        recievings.setRunningBalance(recievings.getQuantity() - sale.getQuantity());
+//
+//                        if (prp.executeUpdate() > 0 && new RecieveBean().update(recievings)) {
+//                            return true;
+//
+//                        } else {
+//                            System.out.println("some ");
+//                        }
+//
+//
+//                    } else {
+//                        System.out.println("not enough");
+//                    }
+//
+//                } else {
+//                    System.out.println("not received");
+//                }
+//            } catch (SQLException e) {
+//                e.printStackTrace();
+//            }
+//
+//
+//        } catch (Exception e) {
+//            System.out.println("You got some sql error...");
+//
+//            e.printStackTrace();
+//        }
 
-                        if (prp.executeUpdate() > 0 && new RecieveBean().update(recievings)) {
-                            return true;
-
-                        } else {
-                            System.out.println("some ");
-                        }
-
-
-                    } else {
-                        System.out.println("not enough");
-                    }
-
-                } else {
-                    System.out.println("not received");
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-
-
-        } catch (Exception e) {
-            System.out.println("You got some sql error...");
-
-            e.printStackTrace();
-        }
-
-        return false;
+        return prp.executeUpdate() > 0;
 
 
     }

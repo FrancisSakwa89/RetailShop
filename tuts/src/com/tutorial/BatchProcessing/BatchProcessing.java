@@ -3,10 +3,7 @@ package com.tutorial.BatchProcessing;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -22,7 +19,8 @@ public class BatchProcessing {
 
             Connection conn = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
 
-            PreparedStatement ps = conn.prepareStatement("INSERT INTO student VALUES(?,?,?,?)");
+            PreparedStatement ps = conn.prepareStatement("INSERT INTO student VALUES(?,?,?,?),");
+
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             while (true){
 

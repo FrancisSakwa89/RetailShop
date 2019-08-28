@@ -38,6 +38,8 @@ public class DatabaseHelper {
 
                     ");";
 
+
+            
             statement.executeUpdate(query);
             //insert values
             SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");

@@ -2,33 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e534358b-765f-43e0-aade-416ae8afbed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_mysql_jdbc_5_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/Bean/BeanI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/Bean/CustomerBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/Bean/ProductBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/Bean/RecieveBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/Bean/RunningBalanceBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/Bean/SaleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/DBConnection/MysqlConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/UI/CustomerUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/UI/ProductUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/UI/RecieveUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/UI/RunningBalanceUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/UI/SaleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/model/Recievings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/model/RunningBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/franco/model/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/MethodsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AppDesignUsingDB/com/franco/Bean/SaleBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AppDesignUsingDB/com/franco/Bean/SaleBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/franco/Bean/SaleBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/franco/Bean/SaleBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ApplicationDesicn/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Money.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/MethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/MethodsClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApplicationDesicn/src/com/exe/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApplicationDesicn/users.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuts/src/com/tutorial/BatchProcessing/BatchProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuts/src/com/tutorial/BatchProcessing/BatchProcessing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuts/src/com/tutorial/DatabaseConnectionExample/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tuts/src/com/tutorial/DatabaseConnectionExample/DatabaseHelper.java" afterDir="false" />
     </list>
@@ -108,6 +88,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/franco/model/Sale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/franco/UI/RecieveUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1080">
@@ -131,11 +123,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/franco/UI/SaleUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
+            <state relative-caret-position="1440">
+              <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/franco/Bean/SaleBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="18" column="60" selection-start-line="18" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/franco/UI/ProductUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="209" column="5" selection-start-line="196" selection-start-column="8" selection-end-line="209" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/franco/Bean/RunningBalanceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,6 +180,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sellingPrice</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -205,8 +238,8 @@
         <option value="$PROJECT_DIR$/src/com/franco/UI/CustomerUI.java" />
         <option value="$PROJECT_DIR$/src/com/franco/model/Product.java" />
         <option value="$PROJECT_DIR$/src/com/franco/Bean/RecieveBean.java" />
-        <option value="$PROJECT_DIR$/src/com/franco/Bean/SaleBean.java" />
         <option value="$PROJECT_DIR$/src/com/franco/UI/SaleUI.java" />
+        <option value="$PROJECT_DIR$/src/com/franco/Bean/SaleBean.java" />
       </list>
     </option>
   </component>
@@ -215,18 +248,6 @@
       <expand />
       <select />
     </treeState>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/com_mysql_jdbc_5_1_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="679" />
@@ -240,7 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,6 +292,13 @@
               <item name="AppDesignUsingDB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="franco" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppDesignUsingDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppDesignUsingDB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="franco" type="462c0819:PsiDirectoryNode" />
               <item name="DBConnection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,11 +319,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -355,12 +384,16 @@
       <workItem from="1566532871654" duration="15776000" />
       <workItem from="1566653382707" duration="4171000" />
       <workItem from="1566718250495" duration="1940000" />
-      <workItem from="1566791130799" duration="2181000" />
+      <workItem from="1566791130799" duration="4274000" />
+      <workItem from="1566825234935" duration="1404000" />
+      <workItem from="1566878009802" duration="1627000" />
+      <workItem from="1566908106956" duration="4714000" />
+      <workItem from="1566964611089" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155521000" />
+    <option name="totallyTimeSpent" value="165957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -370,16 +403,16 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18863636" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20075758" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32792208" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.06677525" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.44788274" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.6514658" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -615,16 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/franco/model/Sale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/franco/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -636,30 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/franco/Bean/RunningBalanceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4a68d92d-c427-4622-bb55-889351f71849/console_15.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="6" lean-forward="true" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/franco/UI/ProductUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,20 +716,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/franco/UI/RecieveUI.java">
+    <entry file="file://$PROJECT_DIR$/src/com/franco/model/Sale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/franco/Bean/SaleBean.java">
+    <entry file="file://$PROJECT_DIR$/src/com/franco/UI/RecieveUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="1080">
+          <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -745,8 +748,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/franco/UI/SaleUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
+        <state relative-caret-position="1440">
+          <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/franco/Bean/SaleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="60" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/franco/Bean/RunningBalanceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/franco/UI/ProductUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="209" column="5" selection-start-line="196" selection-start-column="8" selection-end-line="209" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
