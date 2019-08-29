@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e534358b-765f-43e0-aade-416ae8afbed1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shopifyweb/src/main/java/com/franco/controller/RecievingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shopifyweb/src/main/java/com/franco/controller/RecievingServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="e534358b-765f-43e0-aade-416ae8afbed1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
