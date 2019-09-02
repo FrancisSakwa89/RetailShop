@@ -87,8 +87,9 @@ public class Recievings{
         return runningBalance;
     }
 
-    public void setRunningBalance(int runningBalance) {
+    public int setRunningBalance(int runningBalance) {
         this.runningBalance = runningBalance;
+        return runningBalance;
     }
 
     @Override

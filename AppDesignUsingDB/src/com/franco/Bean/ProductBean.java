@@ -63,6 +63,7 @@ public class ProductBean implements BeanI<Product> {
 
     public ArrayList<Product> readAll() throws SQLException {
         String sql = "SELECT * FROM product";
+//        String sql = "SELECT *,recieving.sellingPrice,recieving.runningBalance FROM product inner join recieving using(id)";
         ResultSet rs = MysqlConnect.getDbCon().executeQuery(sql);
         ArrayList<Product> products = new ArrayList<>();
 
@@ -72,7 +73,10 @@ public class ProductBean implements BeanI<Product> {
             product.setId(rs.getInt("id"));
             product.setName(rs.getString("name"));
             product.setDescription(rs.getString("description"));
+//            String sellingPrice = String.valueOf(rs.getInt("sellingPrice"));
+//            String buyingPrice = String.valueOf(rs.getInt("buyingPrice"));
             products.add(product);
+
         }
         return products;
     }

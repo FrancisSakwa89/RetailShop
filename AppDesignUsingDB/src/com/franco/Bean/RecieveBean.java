@@ -32,7 +32,7 @@ public class RecieveBean implements BeanI<Recievings> {
 
     @Override
     public Recievings read(int id) throws SQLException {
-        String sql ="SELECT * FROM recieving WHERE RecieveId="+id;
+        String sql ="SELECT * FROM recieving WHERE id="+id;
         ResultSet rs = MysqlConnect.getDbCon().executeQuery(sql);
         Recievings recievings = new Recievings();
         if (rs.next()){
@@ -51,7 +51,15 @@ public class RecieveBean implements BeanI<Recievings> {
 
     @Override
     public boolean update(Recievings recievings) throws SQLException {
-        return false;
+        String sql = "UPDATE recieving SET runningBalance=? WHERE id="+recievings.getId();
+
+        Connection conn = MysqlConnect.getDbCon().conn;
+        PreparedStatement prp = conn.prepareStatement(sql);
+
+        prp.setInt(1,recievings.getRunningBalance());
+
+
+        return prp.executeUpdate() > 0;
     }
 
     @Override
@@ -78,8 +86,8 @@ public class RecieveBean implements BeanI<Recievings> {
         return recieving;
 
     }
-    public boolean isProductExists(int id) throws SQLException {
-        String sql = "SELECT count(*) as 'count' FROM recieving where id="+id;
+    public static boolean isProductExists(int id) throws SQLException {
+        String sql = "SELECT count(*) as 'count' FROM product where id="+id;
         ResultSet rs = MysqlConnect.getDbCon().executeQuery(sql);
         if (rs.next()){
             if (rs.getInt("count") > 0){

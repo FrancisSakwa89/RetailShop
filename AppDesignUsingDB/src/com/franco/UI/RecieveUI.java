@@ -32,7 +32,7 @@ public class RecieveUI {
                 ch = Integer.parseInt(choice);
                 if (ch < 1 || ch > 4) {
                     System.out.println("________________________________________________________________________________________");
-                    System.out.println("That was an incorrect input (input out of range). Try Again" );
+                    System.out.println("That was an incorrect input (input out of range). Try Again");
                     System.out.println("________________________________________________________________________________________");
                 }
             } catch (NumberFormatException ex) {
@@ -41,31 +41,29 @@ public class RecieveUI {
                 ex.printStackTrace();
                 System.out.println("___________________________________________");
             }
-                    switch (ch) {
-                        case 1:
-                            try {
-                                createOrder();
-                            } catch (SQLException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 2:
-                            readAllRecievings();
-                            break;
-                        case 3:
-                            deleteRecievingById();
-                            break;
-                        case 4:
-                            System.out.println("_____________________");
-                            System.out.println("Main menu");
-                            Main.mainMenu();
+            switch (ch) {
+                case 1:
+                    try {
+                        createOrder();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
                     }
-                }while (ch != 4);
-
-
+                    break;
+                case 2:
+                    readAllRecievings();
+                    break;
+                case 3:
+                    deleteRecievingById();
+                    break;
+                case 4:
+                    System.out.println("_____________________");
+                    System.out.println("Main menu");
+                    Main.mainMenu();
             }
+        } while (ch != 4);
 
 
+    }
 
 
     public void createOrder() throws SQLException {
@@ -75,7 +73,11 @@ public class RecieveUI {
             Date date = new Date();
             System.out.println("Enter product Id: ");
             int id = Integer.parseInt(scan.nextLine());
+            if (RecieveBean.isProductExists(id)) {
             RecieveBean recieveBean = new RecieveBean();
+            Product product = new ProductBean().read(id);
+            ProductBean productBean = new ProductBean();
+            productBean.update(product);
             System.out.println("Enter quantity: ");
             int quantity = Integer.parseInt(scan.nextLine());
             System.out.println("Enter buyingPrice: ");
@@ -84,42 +86,59 @@ public class RecieveUI {
             double sellingPrice = Integer.parseInt(scan.nextLine());
             System.out.println("Supplier name: ");
             String supplier = scan.nextLine();
-            int runningBalance = quantity;
+            Sale sale = new SaleBean().read(id);
+            Recievings recieving = new RecieveBean().read(id);
+            recieving.setRunningBalance(recieving.getQuantity() - sale.getQuantity());
+//            Sale sale = new SaleBean().read(id);
+            int runningBalance = recieving.getRunningBalance();
+//            product.getId();
 
-            Recievings recievings = new Recievings(batchNo, date, id, quantity, buyingPrice, sellingPrice, supplier,runningBalance);
-            System.out.println("_______________________________");
-            System.out.println("Recieved successfully...");
-            System.out.println("_______________________________");
+            Recievings recievings = new Recievings(batchNo, date, id, quantity, buyingPrice, sellingPrice, supplier, runningBalance);
 
-            try {
+                try {
 
-                recieveBean.create(recievings);
-            } catch (SQLException e) {
+                    recieveBean.create(recievings);
+
+            } catch(NumberFormatException e){
+                System.out.println("Please enter an integer....");
                 e.printStackTrace();
             }
-        } catch (NumberFormatException e) {
-            System.out.println("Please enter an integer....");
+                System.out.println("_______________________________");
+                System.out.println("Recieved successfully...");
+                System.out.println("_______________________________");
+
+
+            }else {
+                System.out.println("_______________________________________________");
+                System.out.println("product id entered matches no product");
+                System.out.println("_______________________________________________");
+
+            }
+        } catch (NumberFormatException | SQLException e) {
             e.printStackTrace();
         }
 
     }
 
+
     public void readAllRecievings(){
         try {
             ArrayList<Recievings> recievings1  = new RecieveBean().readAll();
 
-            Product product = new Product();
-            ProductBean productBean = new ProductBean();
-            SaleBean saleBean  = new SaleBean();
 
-            Sale sale = new Sale();
-            System.out.println("ID     BATCH NO       DATE      SUPPLIER      SELLINGPRICE     BUYINGPRICE     TOTAL       PRODUCT NAME        QUANTITY RECEIVED");
+
+
+            System.out.println("ID     BATCH NO       DATE      SUPPLIER      SELLINGPRICE     BUYINGPRICE     TOTAL       PRODUCT NAME      QUa_RECEIVED       RUNNING BALANCE          ");
             for (Recievings recievings:recievings1){
                 double total = 0;
+                Sale sale = new SaleBean().read(recievings.getQuantity());
+//                int runningBalance = recievings.getQuantity() - sale.getQuantity();
+                recievings.setRunningBalance(recievings.getQuantity() - sale.getQuantity());
+                Product product = new ProductBean().read(recievings.getId());
                 total += (recievings.getQuantity() * recievings.getSellingPrice());
-                System.out.println("__________________________________________________________________________________________________");
-                System.out.println(recievings.getId()+"         "+recievings.getBatchNo()+"         "+recievings.getDate()+"        "+recievings.getSupplier()+"     "+recievings.getSellingPrice()+"       "+recievings.getBuyingPrice()+ "                 " +total+ "        "+productBean.read(recievings.getId()).getName()+ "     "+recievings.getQuantity()+"        "+(recievings.getQuantity() - (saleBean.read(product.getId()).getQuantity())));
-                System.out.println("__________________________________________________________________________________________________");
+                System.out.println("______________________________________________________________________________________________________________________________________________");
+                System.out.println(recievings.getId()+"         "+recievings.getBatchNo()+"         "+recievings.getDate()+"        "+recievings.getSupplier()+"     "+recievings.getSellingPrice()+"       "+recievings.getBuyingPrice()+ "                 " +total+ "        "+product.getName()+ "     "+recievings.getQuantity()+"             "+recievings.getRunningBalance());
+                System.out.println("______________________________________________________________________________________________________________________________________________");
             }
         } catch (SQLException e) {
             e.printStackTrace();

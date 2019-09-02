@@ -196,12 +196,23 @@ public class ProductUI {
     public void viewAllProducts(){
         try {
             ArrayList<Product> products  = new ProductBean().readAll();
+            RecieveBean  recieveBean = new RecieveBean();
 
-            System.out.println("ID     NAME      DESCRIPTION      PRICE         QUANTITY AVAILABLE");
+            System.out.println("ID     NAME            DESCRIPTION           PRICE        QUANTITY AVAILABLE            STATUS");
             for (Product product:products){
+                String status = null;
 
-                Recievings productId = new RecieveBean().read(product.getId());
-                System.out.println(product.getId()+"         "+product.getName()+"        "+product.getDescription()+"           "+productId.getSellingPrice()+"            "+productId.getQuantity());
+                int id = product.getId();
+                Recievings recievings = new RecieveBean().read(id);
+                if (recieveBean.isRecievingExists(id) && RecieveBean.isProductExists(id)){
+                    status = "Recieved";
+                }
+                else{
+                    status = " not recieved";
+                }
+
+
+                System.out.println(product.getId()+"      "+product.getName()+"        "+product.getDescription()+"           "+recievings.getSellingPrice()+"            "+recievings.getQuantity()+"              "+status);
                 System.out.println("________________________________________________________________________");
             }
         } catch (SQLException e) {

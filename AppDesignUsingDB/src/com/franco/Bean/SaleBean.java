@@ -16,7 +16,7 @@ public class SaleBean implements BeanI <Sale>{
 
         String sql = "INSERT INTO sale(date,productId,quantity,sellingPrice,runningBalance,customerName,totalAmount) VALUES(?,?,?,?,?,?,?)";
         Connection conn = MysqlConnect.getDbCon().conn;
-//        Recievings recievings = new RecieveBean().read(sale.getProductId());
+        Recievings recievings = new RecieveBean().read(sale.getProductId());
         PreparedStatement prp = conn.prepareStatement(sql);
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
         String dateString = df.format(sale.getDatetime());
@@ -26,6 +26,9 @@ public class SaleBean implements BeanI <Sale>{
         prp.setInt(4, sale.getSellingPrice());
         prp.setInt(5, sale.getRunningBalance());
         prp.setString(6, sale.getCustomerName());
+        prp.setDouble(7,sale.getTotalAmount());
+
+
 //        try {
 //            try {
 //                if (recievings.getQuantity() > 0) {

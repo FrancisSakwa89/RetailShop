@@ -78,10 +78,12 @@ public class SaleUI {
 
         System.out.println("Enter product id: ");
         int productId = Integer.parseInt(scan.nextLine());
+        Recievings recievings = recieveBean.read(productId);
+
 
         if (recieveBean.isProductExists(productId)) {
 
-            Recievings recievings = null;
+//            Recievings recievings = null;
             try {
                 recievings = recieveBean.read(productId);
             } catch (SQLException e) {
@@ -104,6 +106,9 @@ public class SaleUI {
                         } catch (SQLException e) {
                             e.printStackTrace();
                         }
+                        recievings.setRunningBalance(recievings.getQuantity() - quantity);
+                        recieveBean.update(recievings);
+
                         System.out.println("Enter customer UserId: ");
                         int UserId = Integer.parseInt(scan.nextLine());
                         customer = new CustomerBean().read(UserId);

@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f16bd7dd-2911-4e86-aa2f-d6796ce5f252" name="Default Changelist" comment="Added more files and java classes">
-      <change beforePath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/exe/arrays/CountArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciseThusday/src/com/company/exe/arrays/CountArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LiquorStoreApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LiquorStoreApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LiquorStoreApp/src/main/java/com/sample/SelectLiquorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LiquorStoreApp/src/main/java/com/sample/SelectLiquorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LiquorStoreApp/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LiquorStoreApp/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/Bean/ProductBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/Bean/ProductBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/Bean/RecieveBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/Bean/RecieveBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/Bean/SaleBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/Bean/SaleBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/UI/ProductUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/UI/ProductUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/UI/RecieveUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/UI/RecieveUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/UI/SaleUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/UI/SaleUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/model/Recievings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/out/production/AppDesignUsingDB/com/franco/model/Recievings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/Bean/ProductBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/Bean/ProductBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/Bean/RecieveBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/Bean/RecieveBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/Bean/SaleBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/Bean/SaleBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/UI/ProductUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/UI/ProductUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/UI/RecieveUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/UI/RecieveUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/model/Recievings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppDesignUsingDB/src/com/franco/model/Recievings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -198,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -221,7 +231,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,10 +357,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1360" height="743" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20928463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2128788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
